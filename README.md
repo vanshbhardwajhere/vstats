@@ -16,7 +16,3 @@
 
 It's beginner-friendly and includes well-documented examples.
 
----
-
-## 📁 Folder Structure
-
