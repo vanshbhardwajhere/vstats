@@ -20,6 +20,7 @@ class VStatsConan(ConanFile):
     def package(self):
         copy(self, "*.hpp", self.source_folder, os.path.join(self.package_folder, "include"))
         copy(self, "*.h", self.source_folder, os.path.join(self.package_folder, "include"))
+        copy(self, "LICENSE*", self.source_folder, os.path.join(self.package_folder, "licenses"))
 
     def package_info(self):
         self.cpp_info.includedirs = ["include"]
